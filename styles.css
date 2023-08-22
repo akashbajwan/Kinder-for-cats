@@ -1,0 +1,64 @@
+/* Navigation Bar  */
+
+.navbar-brand {
+    height: 40px;
+    padding: 0;
+    margin: 10px;
+
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.052);
+}
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.bg-image {
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    text-shadow: 20px;
+    color: white;
+}
+
+.lang {
+    color: white;
+}
+
+.text-center { justify-content: center;
+
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./Gotham-Font/Gotham-Bold.otf');
+    
+  }
+
+body{
+    font-family: myFirstFont;
+}
+li  {color: white;}
+h5 { color: white; 
+font-weight: bold; font-size: 1.2rem;}
+
+.main-text { justify-content: center; text-align: center; padding-top: 400px; 
+
+    
+
+
+}
+
+.list-inline .nav-item {
+    padding: 10px;
+}
